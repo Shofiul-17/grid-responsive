@@ -1,0 +1,447 @@
+
+/* =================== Google icon(s) link ==================== */
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@700&family=Poppins&family=Roboto:ital,wght@0,400;0,500;1,300&family=Work+Sans:wght@500&display=swap'); */
+
+
+/* ==================== root pseudo-class selector ==================== */
+:root {
+    --black: #1C1C1C;
+    --gray: #919191;
+    --light-gray: #EBEBEB;
+    --radical-red: #FF214F;
+    --primary-font: "Roboto", sans-serif;
+}
+
+/* ========================== Body Styles ========================== */
+body {
+    background-color: var(--light-gray);
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: var(--primary-font);
+}
+
+/* =============== ( * ) Asterisk selector select all =============== */
+* {
+    /* background-color: red; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: var(--primary-font); */
+}
+
+/* =========================================================================================== */
+/* If you use same properties & values repeatedly then make a common or reusable class to use  */
+/* =========================================================================================== */
+/* ============================================================================ */
+/* ========================== All Section Width Styles ======================== */
+/* ============================================================================ */
+/* ========================== Section-1 - width Styles ========================== */
+/* ========================== Section-3 - width Styles ========================== */
+/* ========================== Section-4 - width Styles ========================== */
+/* ========================== Section- - width Styles ========================== */
+.common-container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+/* ================================================================================= */
+/* ========================== All Section Background Styles ======================== */
+/* ================================================================================= */
+/* ========================== Section-1 - Background Styles ========================== */
+/* ========================== Section-3 - Background Styles ========================== */
+/* ========================== Section- - Background Styles ========================== */
+.section--primary {
+    background: var(--light-gray);
+    padding: 12rem 25px;
+}
+/* ========================== Section-4 Background Styles ========================== */
+/* .section--secondary {
+    background: var(--black);
+    padding: 12rem 25px;
+} */
+
+.section--secondary {
+    background: var(--black);
+    padding: 12rem 25px;
+}
+
+
+/* ================================================================= */
+/* ========================== Navbar Styles ======================== */
+/* ================================================================= */
+/* .nav-container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+} */
+
+nav {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* width: 1100px; */
+    /* width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 170px; */
+    /* padding: 0 25px; */
+}
+/* ========================== Navbar List Items Styles ======================== */
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    /* padding-right: 170px; */
+}
+
+/* =========================================================================== */
+/* ================== All Section Title & Border Flex Styles ================= */
+/* =========================================================================== */
+/* .section-container { */
+    /* background-color: red; */
+    /* width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 170px; */
+    /* padding: 0 25px; */
+    /* background-color: var(--light-gray); */
+    /* padding: 12rem 25px; */
+/* } */
+
+/* ====================  Section-1 - title & border flex Styles ==================== */
+/* ====================  Section-3 - title & border flex Styles ==================== */
+/* ====================  Section-4 - title & border flex Styles ==================== */
+/* ====================  Section- - title & border flex Styles ==================== */
+.section-title-container {
+    display: flex;
+    align-items: center;
+}
+
+/* ======================================================================== */
+/* ================= All section title flex-shrink Styles ================= */
+/* ======================================================================== */
+/* .section-title {
+    flex-shrink: 0;
+} */
+.section-title--primary,
+.section-title--secondary,
+.section-title--tertiary {
+    flex-shrink: 0;
+}
+
+/* ================================================================================================ */
+/* If you use same structure but color change or different then make modifier class to reusable use */
+/* ================================================================================================ */
+/* ======================================================================== */
+/* ================= All section title Color Styles ======================= */
+/* ======================================================================== */
+/* ==================== Section-1 - Section Title Color Styles =================== */
+.section-title--quaternary {
+    color: var(--radical-red);
+}
+/* ==================== Section-3 - Section Title Color Styles =================== */
+/* ====================== Footer Section - Title Color Styles ===================== */
+.section-title--primary {
+    color: var(--black);
+}
+/* ==================== Section-4 - Section Title Color Styles =================== */
+.section-title--secondary {
+    color: var(--gray);
+}
+
+.section-title--tertiary {
+    color: var(--light-gray);
+}
+
+
+
+
+
+/* ================================================================================================ */
+/* If you use same structure but color change or different then make modifier class to reusable use */
+/* ================================================================================================ */
+/* ======================================================================== */
+/* ==================== All Section Border line Styles ==================== */
+/* ======================================================================== */
+/* .section-line--primary {
+    width: 100%;
+    height: 1px;
+    background-color: var(--black);
+    margin-left: 7px;
+}
+.section-line--secondary {
+    width: 100%;
+    height: 1px;
+    background-color: var(--radical-red);
+    margin-left: 7px;
+} */
+/* ===================== Section-1 - Section Border line Styles ====================== */
+.section-line--quaternary {
+    width: 65%;
+    height: 1px;
+    margin-left: 7px;
+}
+/* ===================== Section-3 - Section Border line Styles ====================== */
+/* ===================== Section-4 - Section Border line Styles ====================== */
+/* ===================== Section- - Section Border line Styles ======================= */
+.section-line--primary,
+.section-line--secondary {
+    width: 100%;
+    height: 1px;
+    margin-left: 7px;
+}
+
+/* ============================================================================== */
+/* ==================== All Section Border line Color Styles ==================== */
+/* ============================================================================== */
+/* ===================== Section-1 - Section Border line Color Styles ====================== */
+.section-line--quaternary {
+    background-color: var(--radical-red);
+}
+/* ===================== Section-3 - Section Border line Color Styles ====================== */
+/* ===================== Footer Section - First Border line Color Styles =================== */
+.section-line--primary {
+    background-color: var(--black);
+}
+
+/* ===================== Section-4 - Section Border line Color Styles ======================= */ 
+/* ===================== Footer Section - Second long Border line Color Styles =================== */
+.section-line--secondary {
+    background-color: var(--gray);
+}
+
+.section-line--tertiary {
+    background-color: var(--light-gray);
+}
+
+
+/* .section-description {
+    font-size: 3rem;
+    font-weight: 300;
+} */
+
+
+
+/* ================================================================================================ */
+/* If you use same structure but color change or different then make modifier class to reusable use */
+/* ================================================================================================ */
+/* ======================================================================== */
+/* ==================== All section description Styles ==================== */
+/* ======================================================================== */
+/* ===================== Section-1 - Section description Styles ====================== */
+/* ======================= Footer Section - description Styles ======================== */
+.first-description,
+.footer-description {
+    width: 50%;
+}
+/* ===================== Section-3 - Section description Styles ====================== */
+/* ===================== Section-4 - Section description Styles ====================== */
+.second-description {
+    width: 100%;
+}
+
+/* ===================== Section-1 - Section description Font Styles ====================== */
+/* ===================== Section-3 - Section description Font Styles ====================== */
+/* ===================== Section-4 - Section description Font Styles ====================== */
+/* ===================== Footer Section - Section description Font Styles =================== */
+.section-description--primary,
+.section-description--secondary,
+.section-description--tertiary {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+/* ===================== Section-1 - Section description Color Styles ====================== */
+/* ===================== Section-3 - Section description Color Styles ====================== */
+/* ===================== Footer Section - Section description Color Styles =================== */
+.section-description--primary {
+    color: var(--black);
+}
+/* ===================== Section-4 - Section description Color Styles ====================== */
+.section-description--secondary {
+    color: var(--light-gray);
+}
+
+.section-description--tertiary {
+    color: var(--gray);
+}
+
+.section-description--quaternary {
+    color: var(--radical-red);
+}
+
+
+
+/* ================================================================== */
+/* ========================= Numbers Styles ========================= */
+/* ================================================================== */
+.section-numbers-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 0 0;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.one {
+    color: var(--black);
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.two, .three {
+    color: var(--gray);
+}
+
+/* .numbers > a {
+    text-decoration: none;
+} */
+
+
+/* ================================================================== */
+/* ================== Photo gallery Section Styles ================== */
+/* ================================================================== */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.photo-gallery > img {
+    width: 100%;
+    height: 100%;
+}
+
+.long-img {
+    grid-row: span 2;
+} 
+
+
+/* ================================================================== */
+/* ========================== Logos Styles ========================== */
+/* ================================================================== */
+/* =================== Section-4 - Logos Styles ==================== */
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+/* ================================================================== */
+/* ========================== Footer Styles ========================== */
+/* ================================================================== */
+.footer-section{
+    border-bottom: 1px solid var(--gray);
+}
+
+.trademark-media-section {
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright-container {
+    display: flex;
+    align-items: center;
+    color: var(--gray);
+}
+
+.copyright-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 35px;
+    color: var(--radical-red);
+}
+
+
+
+
+
+
+
+
+
+/* ================================================================== */
+/* =========================== Media query ========================== */
+/* ================================================================== */
+@media only screen and (max-width: 850px) {
+    .common-container {
+        width: 100%;
+    }
+
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-line--quaternary {
+        width: 50%;
+        /* display: none; */
+        
+    }
+    .section-line--primary,
+    .section-line--secondary {
+        display: none;
+    }
+
+    /* .section-title--primary, */
+    .section-title--secondary,
+    .section-title--tertiary {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .first-description {
+        /* width: 90%; */
+        padding: 10px 0 0 0;
+        margin: 0;
+    }
+
+    .section-numbers-container {
+        justify-content: start;
+        gap: 100px;
+    }
+
+    .section-description--primary,
+    .section-description--tertiary {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    /* .logo-container { */
+        /* display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 50px; */
+    /* } */
+
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+.hide {
+    display: none;
+}

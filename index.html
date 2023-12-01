@@ -1,0 +1,156 @@
+<!-- The <!DOCTYPE html> declaration defines that this document is an HTML5 document -->
+<!DOCTYPE html>
+<!-- The <html> element is the root element of an HTML page -->
+<!-- The lang attribute specifies the language of the element's content. -->
+<html lang="en">
+    <!-- The <head> element contains meta information about the HTML page -->
+    <head>
+        <!-- The <meta> tag defines metadata about an HTML document <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. -->
+        <!-- UTF-8 is a character encoding system. It lets you represent characters as ASCII text, (while still allowing for international characters, such as Chinese, Bangla etc so many characters) ASCII (American Standard Code for Information Interchange) is the most common character encoding format for text data in computers and on the internet -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab) -->
+        <title>Candidus</title>
+        
+        <!-- CSS stylesheet reference link  -->
+        <link rel="stylesheet" href="styles/style.css">
+        
+        <!-- Bootstrap styles reference link  -->
+        
+        
+        <!-- Google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@500&family=Open+Sans:wght@700&family=Poppins&family=Roboto:wght@300;400;500&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+        
+
+        <!-- Google icon(s) link -->
+
+
+        <!-- font-awesome reference link  -->
+        <script src="https://kit.fontawesome.com/4aea96c79d.js" crossorigin="anonymous"></script>
+
+    </head>
+    <!-- The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. -->
+    <body>
+        <nav class="nav-container common-container">
+            <h2>Candidus</h2>
+            <ul>
+                <li>Home</li>
+                <li>Blog</li>
+                <li>Pages</li>
+                <li>About</li>
+                <li>Elements</li>
+            </ul>
+        </nav>
+
+        <!-- section.section-container>div>p.section-title+.section-line+h2.section-description -->
+        <!-- section.section-container>div>div>p.section-title+.section-line^h2.section-description+.number>p*3{$} -->
+        <!-- section.section-container>div>div>p.section-title+.section-line^div>h2.section-description+.number>p*3{$} -->
+        <section class="section-1 section--primary common-container">
+            <div class="section-container">
+                <div>
+                    <div class="section-title-container">
+                        <p class="section-title--quaternary">Creativity and Design</p>
+                        <div class="section-line--quaternary"></div>
+                    </div>
+                    <div class="section-numbers-container">
+                        <h2 class="first-description section-description--primary">We're a design studio that believe in the ideas.</h2>
+                        <!-- .number>p*3{$} -->
+                        <div class="numbers">
+                            <!-- <a href=""><p class="one">01</p></a>
+                            <a href=""><p class="two">02</p></a>
+                            <a href=""><p class="three">03</p></a> -->
+                            <p class="one">01</p>
+                            <p class="two">02</p>
+                            <p class="three">03</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2 photo-gallery">
+            <img src="./images/image2.jpg" alt="">
+            <img class="long-img" src="./images/image1.jpg" alt="">
+            <img src="./images/image3.jpg" alt="">
+            <img src="./images/image4.jpg" alt="">
+            <img src="./images/image10.jpg" alt="">
+            <img src="./images/image6.jpg" alt="">
+            <img src="./images/image7.jpg" alt="">
+            <img src="./images/image9.jpg" alt="">
+            <img src="./images/image11.jpg" alt="">
+            <img src="./images/image8.jpg" alt="">
+            <img src="./images/image5.jpg" alt="">
+        </section>
+
+        <section class="section-3 section--primary common-container">
+            <div class="section-container">
+                <div class="section-title-container">
+                    <p class="section-title--primary">Creativity and Design</p>
+                    <div class="section-line--primary"></div>
+                </div>
+                <h2 class="section-description--primary">We are creative perfectionists and this lets us go beyond existing framework in developing strategies, as well as in creativity & design.</h2>
+            </div>
+        </section>
+                
+                
+
+        <section class="section-4 section--secondary">
+            <div class="common-container">
+                <div class="section-title-container">
+                    <p class="section-title--secondary">Our Expertise and Services</p>
+                    <div class="section-line--secondary"></div>
+                </div>
+                <h2 class="section-description--secondary">We create beautifully-crafted websites that stand out from the crowd - and perfect function comes as standard. We combine design and technical craft.</h2>
+                <div class="logo-container">
+                    <img src="./logos/logo-1.png" alt="">
+                    <img src="./logos/logo-2.png" alt="">
+                    <img src="./logos/logo-3.png" alt="">
+                    <img src="./logos/logo-4.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="section-5 footer-section section--primary">
+                <div class="common-container">
+                    <div class="section-title-container">
+                        <p class="section-title--primary">Dhaka Based Creative Studio</p>
+                        <div class="section-line--primary"></div>
+                    </div>
+                    <h2 class="footer-description section-description--primary">Level-4, 34, Awal Centre, Banani, Dhaka</h2>
+                </div>
+                <!-- <div class="section-line--secondary"></div> -->
+            </section>
+            <!-- <hr> -->
+            <div class="trademark-media-section common-container">
+                <div class="copyright-container">
+                    <h2 class="copyright-logo">&copy;</h2>
+                    <h4>2023 Powered by ThemeZaa.</h4>
+                </div>
+                <div class="social-media-icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </footer>
+                
+                
+                    
+
+        
+        
+        
+
+
+        
+
+
+
+
+        
+    </body>
+</html>
