@@ -382,21 +382,7 @@ nav > ul {
         width: 100%;
     }
 
-    .photo-gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .section-line--quaternary {
-        width: 50%;
-        /* display: none; */
-        
-    }
-    .section-line--primary,
-    .section-line--secondary {
-        display: none;
-    }
-
-    /* .section-title--primary, */
+    .section-title--primary,
     .section-title--secondary,
     .section-title--tertiary {
         width: 100%;
@@ -405,33 +391,35 @@ nav > ul {
         font-size: 18px;
     }
 
-    .first-description {
-        /* width: 90%; */
-        padding: 10px 0 0 0;
-        margin: 0;
+    .section-line--quaternary {
+        width: 50%;
+        /* display: none; */
+    }
+    .section-line--primary,
+    .section-line--secondary {
+        display: none;
     }
 
-    .section-numbers-container {
-        justify-content: start;
-        gap: 100px;
+    .first-description{
+        width: 70%;
     }
 
-    .section-description--primary,
-    .section-description--tertiary {
+    .photo-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .second-description,
+    .third-description,
+    .footer-description{
         text-align: center;
         font-size: 2.5rem;
+        padding: 0 30px;
     }
 
-    /* .logo-container { */
-        /* display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin-top: 50px; */
-    /* } */
-
-    
-
-    
+    .footer-description{
+        width: 100%;
+        padding: 0 100px ;
+    }
 }
 
 
